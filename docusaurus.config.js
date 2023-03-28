@@ -73,12 +73,30 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "intro",
+            docId: "fhir/index",
             position: "left",
-            label: "Structure Maps",
+            label: "Fhir",
           },
           {
-            href: "https://github.com/facebook/docusaurus",
+            type: "doc",
+            docId: "backend/index",
+            position: "left",
+            label: "Backend",
+          },
+          {
+            type: "doc",
+            docId: "android/index",
+            position: "left",
+            label: "Android",
+          },
+          {
+            type: "doc",
+            docId: "resources/index",
+            position: "left",
+            label: "Resources",
+          },
+          {
+            href: "https://github.com/d-tree-org/fhir-docs",
             label: "GitHub",
             position: "right",
           },
@@ -114,7 +132,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} D-tree, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
