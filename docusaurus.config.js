@@ -18,8 +18,9 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "D-Tree", // Usually your GitHub org/user name.
+  organizationName: "d-tree-org", // Usually your GitHub org/user name.
   projectName: "fhir-docs", // Usually your repo name.
+  trailingSlash: false,
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
