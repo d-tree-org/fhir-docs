@@ -96,6 +96,12 @@ const config = {
             label: "Resources",
           },
           {
+            type: "doc",
+            docId: "tools/index",
+            position: "left",
+            label: "Tools",
+          },
+          {
             href: "https://github.com/d-tree-org/fhir-docs",
             label: "GitHub",
             position: "right",
